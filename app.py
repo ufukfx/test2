@@ -8,7 +8,6 @@ app = Flask(__name__)
 def search_results():
     # Set the search query parameters
     params = {
-      "api_key": "b9cd1a55978beb9b880e5ed669a9b0ff86d96b26ec87d3be5defe9080c55847b",
       "engine": "google",
       "q": "bahis siteleri ",
       "location": "Ankara, Ankara, Turkey",
